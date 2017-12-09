@@ -1,0 +1,156 @@
+*{margin:0 ;padding:0;}
+h1,h2,h3,h4,h5,h6,ul,li,p{margin: 0;padding:0px;}
+li{list-style: none;float:left;}
+a{text-decoration: none;}
+.row{
+	margin:0px;
+	padding:0px;
+}
+
+body{background:#CCC;}
+/*Bắt đầu CSS cho phần header-menu */
+.container-max{
+	max-width: 1020px;
+	margin-top:20px;
+}
+.header-top{
+	background: #fff;
+}
+.logo{
+	padding:15px 0px 15px 30px;
+}
+.header-menu{
+	padding:28px 0px;
+	text-align:center;
+	background: none;
+	 border: none;
+	 margin:0px;
+}
+.header-menu li{
+	padding:0px 5px;
+}
+.header-menu a{
+	padding:15px;
+	color:#000;
+}
+.header-menu a:hover{
+	background:#1bbc9b;
+	text-decoration: none;
+	color:#fff;
+}
+/*Kết thúc CSS cho phần header-menu */
+
+/*Bắt đầu CSS cho phần header-title */
+.header-title{
+	background:url(image/NHbg.png);
+	text-align: center;
+}
+.title{
+	padding:80px 0px;
+}
+.title span{
+	font-size:55px;
+	padding:20px 0px;
+}
+.title p{
+	font-size: 18px;
+	padding:20px 0px;
+}
+.button{
+	background: #1bbc9b;
+}
+/*Kết thúc CSS cho phần header-title */
+#about-us{
+	background:#FFFFFF;
+	text-align: center;
+	padding:50px 10%;
+}
+.about-title{
+	padding-bottom: 30px;
+}
+.about-post{
+	padding: 10px 0px;
+}
+.about-text{
+	width:220px;
+	margin:0 auto;
+	padding:10px 5px;
+}
+.about-text span{
+	font-size:18px;
+}
+.about-text p{
+	font-size: 14px;
+}
+.white{
+	color:#CCC;
+}
+.text-left{
+	margin-left:25px;
+	}
+/*Kết thúc CSS phần about us*/
+
+/*Bắt đầu CSS footer*/
+.footer{
+	background:#2d3e50;
+	padding:20px 0px;
+	margin-bottom:20px;
+}
+.footer-left{
+	font-size:14px;
+	color:#fff;
+}
+.footer-left p{
+	line-height: 45px;
+}
+.footer-right a{
+	background: #1bbc9b;
+    color: #fff;
+    float: right;
+    padding: 15px;
+    text-decoration: none;
+}
+.footer-right a:hover{
+	color: #000;
+}
+.imgfb{
+	margin-left:20px;
+}
+/*Kết thúc CSS footer*/
+/*CSS cho responsive menu*/
+.collapse-li{
+	border:none;
+}
+@media screen and (max-width : 768px) {
+	.collapse-li li{padding:10px 0px;float:none;}
+	.header-menu{padding:0px 5px 0px 0px;}
+	.logo{padding-left:5px;}
+	.navbar-header button {margin:10px 0px;
+	background:#FFF;
+	}
+}
+
+.button input{
+	padding: 7px;
+}
+.editText input{
+	margin-top: 10px;
+}
+.textView p {
+	margin-top: 10px;
+}
+.about-title h2{
+	color:#000;
+	font-weight:bold;
+}
+.title-p p {
+	font-weight:bold ;
+	font-size:18px ;
+}
+.choosefile{
+	margin-left:30px ;
+}
+.title-insert p {
+	font-weight:bold ;
+	font-size:16px ;
+}
